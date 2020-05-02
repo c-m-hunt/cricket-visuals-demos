@@ -1,0 +1,24 @@
+{
+  "name": "cricket-visuals-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^25.5.3",
+    "ts-jest": "^25.4.0",
+    "ts-loader": "^7.0.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "scripts": {
+    "start": "webpack-dev-server --mode development --port 8090",
+    "test": "jest --config jestconfig.json"
+  },
+  "dependencies": {
+    "@types/jest": "^25.2.1",
+    "cricket-visuals": "^0.1.1",
+    "d3": "^5.16.0"
+  }
+}
